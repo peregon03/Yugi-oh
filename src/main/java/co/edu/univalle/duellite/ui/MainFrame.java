@@ -600,8 +600,13 @@ public class MainFrame extends JFrame implements BattleListener {
         btn.setOpaque(true);           // Necesario para que el fondo se pinte en todos los SO
         btn.setBorderPainted(true);
         btn.setBorder(BorderFactory.createCompoundBorder(
+<<<<<<< HEAD
                 BorderFactory.createLineBorder(colorHover, 1),          // Borde con el color hover
                 BorderFactory.createEmptyBorder(7, 16, 7, 16)           // Relleno interior
+=======
+            BorderFactory.createLineBorder(colorHover, 1),          // Borde con el color hover
+            BorderFactory.createEmptyBorder(7, 16, 7, 16)           // Relleno interior
+>>>>>>> 1d7e935 (ui: actualizar colores de botones y README con integrantes y capturas)
         ));
         btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
